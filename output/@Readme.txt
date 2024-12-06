@@ -4,9 +4,7 @@
 tv+区号+运营商缩写cm/cu/ct为中国移动/联通/电信+Q/E为全部频道和鄂也就是央视加湖北频道缩写。
 
 数据源
-a.Guovin自维护的数据output
-https://ghp.ci/raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u
-b.收录其它自维护数据
+a.收录其它自维护数据源
 https://a.lqtv.top/m3u/tv.m3u
 https://ghp.ci/https://raw.githubusercontent.com/busyrock/IPTV/main/IPTV.m3u
 https://ghp.ci/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u
@@ -14,8 +12,10 @@ https://ghp.ci/https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv6.m3u
 https://ghp.ci/https://raw.githubusercontent.com/YueChan/Live/blob/main/Global.m3u
 https://ghp.ci/https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/APTV.m3u
 https://live.kilvn.com/iptv.m3u
-即
-https://ghp.ci/raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u,https://a.lqtv.top/m3u/tv.m3u,https://ghp.ci/https://raw.githubusercontent.com/busyrock/IPTV/main/IPTV.m3u,https://ghp.ci/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u,https://ghp.ci/https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv6.m3u,https://ghp.ci/https://raw.githubusercontent.com/YueChan/Live/blob/main/Global.m3u,https://ghp.ci/https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/APTV.m3u,https://live.kilvn.com/iptv.m3u
+b.Guovin自维护的数据源
+
+20241206数据
+https://a.lqtv.top/m3u/tv.m3u,https://ghp.ci/https://raw.githubusercontent.com/busyrock/IPTV/main/IPTV.m3u,https://ghp.ci/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u,https://ghp.ci/https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv6.m3u,https://ghp.ci/https://raw.githubusercontent.com/YueChan/Live/blob/main/Global.m3u,https://ghp.ci/https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/APTV.m3u,https://live.kilvn.com/iptv.m3u,https://live.zbds.top/tv/iptv6.txt,https://live.zbds.top/tv/iptv4.txt,https://live.fanmingming.com/tv/m3u/ipv6.m3u,https://ghp.ci/https://raw.githubusercontent.com/joevess/IPTV/main/home.m3u8,https://aktv.top/live.txt,http://175.178.251.183:6689/live.txt,https://ghp.ci/https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/merged_output.txt,https://m3u.ibert.me/txt/fmml_dv6.txt,https://m3u.ibert.me/txt/o_cn.txt,https://m3u.ibert.me/txt/j_iptv.txt,https://ghp.ci/https://raw.githubusercontent.com/xzw832/cmys/main/S_CCTV.txt,https://ghp.ci/https://raw.githubusercontent.com/xzw832/cmys/main/S_weishi.txt,http://itv.22m.top/ITVBox/tv/tvonline.txt,https://ghp.ci//https://raw.githubusercontent.com/asdjkl6/tv/tv/.m3u/整套直播源/测试/整套直播源/l.txt,https://ghp.ci//https://raw.githubusercontent.com/asdjkl6/tv/tv/.m3u/整套直播源/测试/整套直播源/kk.txt
 
 
 2.方案
