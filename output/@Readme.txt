@@ -12,7 +12,8 @@ https://ghp.ci/https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv6.m3u
 https://ghp.ci/https://raw.githubusercontent.com/YueChan/Live/blob/main/Global.m3u
 https://ghp.ci/https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/APTV.m3u
 https://live.kilvn.com/iptv.m3u
-b.Guovin自维护的数据源
+b.Guovin自维护的数据源或已更新的output
+https://ghp.ci/raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u
 
 20241206数据
 https://a.lqtv.top/m3u/tv.m3u,https://ghp.ci/https://raw.githubusercontent.com/busyrock/IPTV/main/IPTV.m3u,https://ghp.ci/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u,https://ghp.ci/https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv6.m3u,https://ghp.ci/https://raw.githubusercontent.com/YueChan/Live/blob/main/Global.m3u,https://ghp.ci/https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/APTV.m3u,https://live.kilvn.com/iptv.m3u,https://live.zbds.top/tv/iptv6.txt,https://live.zbds.top/tv/iptv4.txt,https://live.fanmingming.com/tv/m3u/ipv6.m3u,https://ghp.ci/https://raw.githubusercontent.com/joevess/IPTV/main/home.m3u8,https://aktv.top/live.txt,http://175.178.251.183:6689/live.txt,https://ghp.ci/https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/merged_output.txt,https://m3u.ibert.me/txt/fmml_dv6.txt,https://m3u.ibert.me/txt/o_cn.txt,https://m3u.ibert.me/txt/j_iptv.txt,https://ghp.ci/https://raw.githubusercontent.com/xzw832/cmys/main/S_CCTV.txt,https://ghp.ci/https://raw.githubusercontent.com/xzw832/cmys/main/S_weishi.txt,http://itv.22m.top/ITVBox/tv/tvonline.txt,https://ghp.ci//https://raw.githubusercontent.com/asdjkl6/tv/tv/.m3u/整套直播源/测试/整套直播源/l.txt,https://ghp.ci//https://raw.githubusercontent.com/asdjkl6/tv/tv/.m3u/整套直播源/测试/整套直播源/kk.txt
@@ -53,6 +54,9 @@ subscribe_num = 6
 ipv_type_prefer = IPv6
 ipv4_num = 5
 ipv6_num = 7
+非调试下面两个不要开Ture
+open_keep_all = False
+open_empty_category = False
 
 20241206，demo.txt使用fanmingming的epg和图标，发现部分台标无法归类，于是手动修改。
 高尔夫网球---央视高网
