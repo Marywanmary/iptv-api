@@ -1,0 +1,8 @@
+#EXTM3U
+#EXTINF:-1 group-title="香港台" tvg-id="香港卫视" tvg-logo="http://tv.haoqu99.com/d/file/2016/0922/small26a02aa95faa4a0ea0f217651a4f11411474553718.jpg",香港卫视
+http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
+#EXTINF:-1 ,凤凰资讯
+http://50.7.234.10:8278/phoenixinfo_hd/playlist.m3u8?tid=m7f4a830029be&ct=18336&tsum=74f57bddc0725f74838380086dce3e44
+#EXTINF:-1 ,凤凰卫视中文
+https://stream1.freetv.fun/62d74be30d8730ee2b7ff62c6e79642254209fc739c8c08065c467a083f9f8e4.m3u8
+
