@@ -1,16 +1,28 @@
 import os
 
-output_dir = "output"
+config_path = "config"
 
-result_path = os.path.join(output_dir, "result_new.txt")
+output_path = "output"
 
-cache_path = os.path.join(output_dir, "cache.pkl")
+whitelist_path = os.path.join(config_path, "whitelist.txt")
 
-sort_log_path = os.path.join(output_dir, "sort.log")
+blacklist_path = os.path.join(config_path, "blacklist.txt")
 
-log_path = os.path.join(output_dir, "log.log")
+subscribe_path = os.path.join(config_path, "subscribe.txt")
 
-url_pattern = r"((https?):\/\/)?(\[[0-9a-fA-F:]+\]|([\w-]+\.)+[\w-]+)(:[0-9]{1,5})?(\/[^\s]*)?(\$[^\s]+)?"
+result_path = os.path.join(output_path, "result_new.txt")
+
+cache_path = os.path.join(output_path, "cache.pkl")
+
+sort_log_path = os.path.join(output_path, "sort.log")
+
+log_path = os.path.join(output_path, "log.log")
+
+url_host_pattern = r"((https?|rtmp)://)?(\[[0-9a-fA-F:]+]|([\w-]+\.?)+[\w-]+)"
+
+url_pattern = url_host_pattern + r"(.*)?"
+
+rtmp_url_pattern = r"^rtmp://.*$"
 
 rtp_pattern = r"^([^,，]+)(?:[,，])?(rtp://.*)$"
 
@@ -91,6 +103,8 @@ origin_map = {
     "multicast": "组播源",
     "subscribe": "订阅源",
     "online_search": "关键字源",
+    "whitelist": "白名单",
+    "local": "本地源",
 }
 
 ipv6_proxy = "http://www.ipv6proxy.net/go.php?u="
